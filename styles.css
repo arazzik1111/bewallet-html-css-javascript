@@ -1,0 +1,521 @@
+body {
+    background-color: #06d3fc; /*darker blue*/
+  }
+  
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.content h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+
+.content h1 + p {
+  color: green;
+  font-size: 36px;
+}
+nav{
+    float: right;
+  }
+  nav ul{
+    display: flex;
+  }
+  nav li{
+    margin-left: 10px;
+  }
+  
+
+  .content .subtitle {
+    font-size: 12px;
+  }
+  
+  .content .cta-box .button {
+    background-color: #90EE90; /*soft green*/
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+  .content .cta-box .button {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+  }
+
+  .content h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .content h1 + p {
+    color: #90EE90; /*soft green*/
+    display: block;
+  }
+
+  
+  .content .subtitle {
+    font-weight: bold;
+    color: white;
+  }
+
+  
+  .content h1 {
+    color: white;
+  }
+  
+  .content h1 + p {
+    color: green;
+    display: block;
+  }
+  .image-box img {
+   display: block;
+   max-width: 900px;
+   max-height: 600px;
+   width: 100%;
+   height: auto;
+}
+.text-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-container {
+  width: 70%;
+  padding-right: 20px;
+}
+.image-container {
+  width: 30%;
+}
+.image-container img {
+  width: 500px;
+  height: 300px;
+}
+.text-image-container {
+  display: flex;
+  align-items: center;
+}
+.image-container {
+  width: 30%;
+  justify-content: flex-start;
+}
+.text-container {
+  width: 70%;
+  justify-content: flex-end;
+}
+.button {
+  background-color: #90EE90; /*soft green*/
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  margin-left: 35px;
+}
+nav a:hover {
+  color: #90EE90; /*soft green*/
+}
+nav a:visited {
+  color: white;
+}
+nav {
+  position: relative;
+  left: -110px;
+  font-size: 120%;
+}
+nav li:hover {
+  color: #90EE90; /*soft green*/
+}
+nav li:visited {
+  color: white;
+}
+nav li a:hover {
+  color: #90EE90; /*soft green*/
+}
+.content h1 {
+  margin-top: 120px;
+  font-size: 400%;
+}
+
+.content .subtitle {
+  margin-top: 60px;
+  margin-right: 100px;
+  font-size: 170%;
+}
+
+.content .cta-box {
+  margin-top: 60px;
+  margin-right: 100px;
+}
+
+.content .image-box {
+  margin-top: 60px;
+  margin-right: 100px;
+}
+.green-text {
+  color: green;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+}
+img.responsive {
+  max-width: 160%;
+  height: auto;
+  position: relative;
+  left: -140px;
+  bottom: -37px;
+}
+.image-container {
+  width: 30%;
+  justify-content: flex-start;
+}
+.text-container {
+  width: 70%;
+  justify-content: flex-end;
+}
+.content {
+  max-width: 100%;
+}
+.content h1 {
+  font-size: 6vw;
+}
+.content .cta-box .button {
+  padding: 20px 30px; /* increases the size of the button */
+  font-size: 25px; /* increases the size of the text inside the button */
+}
+
+.text-image-container {
+    display: flex;
+    flex-direction: row;
+}
+.image-container {
+  order: -1; /* this will put the image first */
+  margin-left: 5%;
+}
+
+.text-container {
+  width: 30%; /* this will reduce the width of the container to 60% of its parent */
+  margin-right: 13%;
+  font-size: 140%;
+  font-weight: 500;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: -3%;
+  margin-left: 40%;
+  font-size: 180%;
+}
+
+.section-2 {
+  background-color: white;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.section-2 img {
+  max-width: 40%;
+  height: auto;
+  margin-left: 50%;
+}
+.section-2 h2 {
+  position: relative;
+  top: 75px;
+  right: 700px;
+}
+
+@media (max-width: 600px) {
+  .section-2 h2 {
+    right: 20px;
+  }
+}
+
+
+/* adjust the position of the text */
+.section-2 .content-box {
+  position: relative;
+  left: -90px;
+  top: 100px;
+}
+
+/* adjust the size of the text */
+.section-2 .content-box p {
+  font-size: 120%;
+}
+.section-2 .content-box p {
+  width: 30%;
+  font-size: 140%;
+  position: relative;
+  bottom: -130px;
+  right: -120px;
+}
+
+  .section-2 .image {
+    float: right;
+    margin-top: -120px; /* adjust this value to move the image up or down */
+  }
+  .section-2 .button {
+    position: relative;
+    bottom: -170px;
+    right: -250px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .section-2 .image2 {
+    position: relative;
+    bottom: 100px;
+  }
+
+  .section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .section-3 h2 {
+    margin-bottom: 20px;
+  }
+  
+  .section-3 p {
+    margin-bottom: 20px;
+    font-size: 140%;
+  }
+  
+  .section-3 .content-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section-3 .block-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section-3 .block {
+    width: 33.33%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .block:nth-of-type(1) {
+    background-color: #90EE90;
+  }
+  
+  .block:nth-of-type(2) {
+    background-color: #F08080;
+  }
+  
+  .block:nth-of-type(3) {
+    background-color: #87CEFA;
+  }
+  .block-container .block {
+    width: 30%; /* adjust as needed */
+    padding: 10px; /* add some padding */
+    box-sizing: border-box; /* include padding and border in total width */
+    float: left; /* float the blocks next to each other */
+}
+
+  
+.soft-blue-box .block {
+  background-color: blue;
+}
+.soft-blue-box .block {
+  display: inline-block;
+  width: 25%;
+  margin-right: 90px;
+  background-color: #87CEEB; /*soft blue*/
+  padding: 110px;
+  text-align: center;
+  position: relative;
+  top: 35px;
+  right: -100px;
+}
+
+
+.block{
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+
+.soft-blue-box .block {
+  width: 200px;
+}
+
+.soft-blue-box .block-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-box {
+  background-color: rgba(248, 5, 5, 0.3);
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  bottom: -150px;
+  left: 250px;
+  margin-bottom: 30%;
+  }
+  
+  .info-box p {
+  margin: 0;
+  }
+  
+  .info-box i {
+  margin-right: 10px;
+  }
+  
+  .start-for-free-button {
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    top: 300px;
+    right: 350px;
+  }
+  
+
+  .section-4 {
+    background-color: #90EE90;
+        width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .section-4 h2 {
+    margin-top: -10px;
+    padding: 20px;
+    position: relative;
+    right: 450px;
+    top: 50px;
+  }
+  
+  .section-4 .cta-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  
+  .plan-button {
+    background-color: #87CEEB; /* Soft Blue */
+    border-radius: 5px; /* Slightly rounded */
+    width: 150px;
+    height: 65px;
+    position: relative;
+    right: 175px;
+    bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(241, 8, 8);
+    font-size: large;
+    font-weight: bolder;
+  }
+  
+  .section-5 {
+    display: flex;
+    justify-content: space-between;
+}
+.image-container {
+    order: 1;
+}
+.nav-container {
+    order: 2;
+}
+.nav-container {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 350px;
+}
+.nav-container h2, .nav-container p {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  color: grey;
+}
+.nav-container a {
+  color: #fff;
+  text-decoration: none; /* remove underline */
+  font-size: 1.2em; /* bigger font size */
+  font-weight: 800;
+}
+.nav-container a:hover {
+  color: green; /* change color to green on hover */
+}
+.image-container2{
+  height: auto;
+  position: relative;
+  left: 90px;
+  top: 90px;
+}
+
+.header {
+  position: fixed;
+  top: 0; /* set to 0 to stick to the top of the viewport */
+  left: 0; /* set to 0 to stick to the left of the viewport */
+  width: 100%;
+  z-index: 1;
+}
+
+.header a {
+  display: inline-block;
+  padding: 16px;
+}
+
+.header nav {
+  display: inline-block;
+  float: right;
+}
+
+.header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.header nav ul li {
+  padding: 16px;
+}
+.header {
+  background-color: #4CAF50; /* Green background */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
